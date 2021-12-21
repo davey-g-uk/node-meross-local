@@ -1,0 +1,28 @@
+{
+  "name": "meross-local",
+  "version": "1.0.0",
+  "description": "Control Meross smart plugs on the local network without using the cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangxx/node-meross-local.git"
+  },
+  "keywords": [
+    "meross",
+    "local",
+    "control",
+    "iot"
+  ],
+  "author": "jangxx <jangxx@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jangxx/node-meross-local/issues"
+  },
+  "homepage": "https://github.com/jangxx/node-meross-local#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
