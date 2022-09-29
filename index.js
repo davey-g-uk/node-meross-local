@@ -6,8 +6,7 @@ class MerossSmartPlug {
 		this._key = key;
 		this._address = address;
         this._uuid = null;
-		this._lastrequest = null;
-		console.log('DG MEROSS PLUGIN');
+		this._lastrequest = null
 	}
 
 	async _sendRequest(method, namespace, payload) {
@@ -51,7 +50,6 @@ class MerossSmartPlug {
 	}
 
 	async setPower(power, channel = 0) {
-		console.log('DG MEROSS PLUGIN : Set power');
         if (this._uuid == null) {
             this._uuid = await this._getUUID;
         }
